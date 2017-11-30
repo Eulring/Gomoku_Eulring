@@ -1,0 +1,43 @@
+﻿Build started 2016/4/13 15:59:25.
+     1>Project "C:\Users\admin\Desktop\gd\Eulring project\Eulring_release\Eulring_release\Eulring_release.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AIengine.cpp Cboard.cpp Cpattern.cpp CTpattern.cpp Engine_debug.cpp example.cpp Game_tree.cpp Hashitem.cpp pisqpipe.cpp Search_tree.cpp VCT_tree.cpp
+         VCT_tree.cpp
+     1>c:\users\admin\desktop\gd\eulring project\eulring_release\eulring_release\vct_tree.cpp(69): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>c:\users\admin\desktop\gd\eulring project\eulring_release\eulring_release\vct_tree.cpp(154): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+         Search_tree.cpp
+         pisqpipe.cpp
+         Hashitem.cpp
+     1>c:\users\admin\desktop\gd\eulring project\eulring_release\eulring_release\hashitem.cpp(12): warning C4552: '^' : operator has no effect; expected operator with side-effect
+         Game_tree.cpp
+     1>c:\users\admin\desktop\gd\eulring project\eulring_release\eulring_release\game_tree.cpp(19): warning C4554: '^' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\admin\desktop\gd\eulring project\eulring_release\eulring_release\game_tree.cpp(79): warning C4554: '^' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\admin\desktop\gd\eulring project\eulring_release\eulring_release\game_tree.cpp(66): warning C4101: 'res' : unreferenced local variable
+         example.cpp
+     1>c:\users\admin\desktop\gd\eulring project\eulring_release\eulring_release\example.cpp(104): warning C4101: 'i' : unreferenced local variable
+         Engine_debug.cpp
+     1>c:\users\admin\desktop\gd\eulring project\eulring_release\eulring_release\engine_debug.cpp(29): warning C4101: 'z' : unreferenced local variable
+         CTpattern.cpp
+         Cpattern.cpp
+     1>c:\users\admin\desktop\gd\eulring project\eulring_release\eulring_release\cpattern.cpp(135): warning C4101: 'd' : unreferenced local variable
+         Cboard.cpp
+         AIengine.cpp
+         Generating Code...
+       Link:
+         D:\Microsoft\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\Desktop\gd\Eulring project\Eulring_release\Debug\Eulring_release.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\admin\Desktop\gd\Eulring project\Eulring_release\Debug\Eulring_release.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\Desktop\gd\Eulring project\Eulring_release\Debug\Eulring_release.lib" /MACHINE:X86 Debug\AIengine.obj
+         Debug\Cboard.obj
+         Debug\Cpattern.obj
+         Debug\CTpattern.obj
+         Debug\Engine_debug.obj
+         Debug\example.obj
+         Debug\Game_tree.obj
+         Debug\Hashitem.obj
+         Debug\pisqpipe.obj
+         Debug\Search_tree.obj
+         Debug\VCT_tree.obj
+         Eulring_release.vcxproj -> C:\Users\admin\Desktop\gd\Eulring project\Eulring_release\Debug\Eulring_release.exe
+     1>Done Building Project "C:\Users\admin\Desktop\gd\Eulring project\Eulring_release\Eulring_release\Eulring_release.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.42

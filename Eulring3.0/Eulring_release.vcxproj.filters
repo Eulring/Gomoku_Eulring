@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AI_Common">
+      <UniqueIdentifier>{18fafc8e-d4c0-41c1-a3d5-ad8b9eb9604a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI_Engine">
+      <UniqueIdentifier>{b59ca973-8512-4822-95ed-1789584438ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine_API">
+      <UniqueIdentifier>{14e224e5-1682-4eb9-ae9a-ee86af5dd642}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pisqpipe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AIengine.cpp">
+      <Filter>Engine_API</Filter>
+    </ClCompile>
+    <ClCompile Include="Cboard.cpp">
+      <Filter>AI_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_debug.cpp">
+      <Filter>AI_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_tree.cpp">
+      <Filter>AI_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Search_tree.cpp">
+      <Filter>AI_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="VCT_tree.cpp">
+      <Filter>AI_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpattern.cpp">
+      <Filter>AI_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CTpattern.cpp">
+      <Filter>AI_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Hashitem.cpp">
+      <Filter>AI_Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pisqpipe.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AIengine.h">
+      <Filter>Engine_API</Filter>
+    </ClInclude>
+    <ClInclude Include="Cboard.h">
+      <Filter>AI_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpattern.h">
+      <Filter>AI_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctype.h">
+      <Filter>AI_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Hashitem.h">
+      <Filter>AI_Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
